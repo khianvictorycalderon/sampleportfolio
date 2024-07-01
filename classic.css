@@ -1,0 +1,161 @@
+.c_b1 {
+    background:#401F71;
+    color:white;
+}
+.c_b2 {
+    background:#824D74;
+    color:white;
+}
+.c_b3 {
+    background:#BE7B72;
+    color:black;
+}
+.c_b4 {
+    background:#FDAF7B;
+    color:white;
+}
+
+#c_mobilemenu {
+    display:none;
+}
+
+#c_mobilemenu {
+    position:fixed;
+    left:5%;
+    top:2%;
+    font-size:2rem;
+    z-index:4;
+}
+
+#c_navbox {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+#c_menu {
+    position:sticky;
+    top:0;
+    z-index:5;
+}
+
+.c_navboxlist, .c_profileboxlist {
+    padding:4%;
+    text-align:center;
+    transition:1s;
+    cursor:pointer;
+}
+
+.c_navboxlist:hover, .c_navboxlist:active {
+    background:#582d99;
+}
+
+#c_leftarrrow {
+    font-size:2.5rem;
+    display:none;
+}
+
+#c_mobilemenu {
+    color:white;
+}
+
+#c_mainprofile {
+    padding:4%;
+    color:white;
+}
+
+#c_whyme {
+    padding:4%;
+}
+
+.c_midver {
+    align-content:center;
+}
+
+#c_bio > p {
+    font-size:1rem;
+    font-family:'Segoe UI';
+}
+
+#c_bio {
+    background:rgb(236, 236, 236);
+    color:black;
+    padding:4%;
+}
+
+.c_mainpic {
+    width:40%;
+    height:auto;
+    border-radius:25px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#c_profilebox {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:50px;
+}
+
+.c_right {
+    text-align:right;
+}
+
+.c_left {
+    text-align:left;
+}
+
+.c_box {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+}
+
+.c_boxlist {
+    align-content:center;
+    padding:2%;
+    text-align:center;
+    transition:1s;
+}
+
+.c_boximg {
+    width:80%;
+    height:auto;
+    box-shadow: 0px 0px 20px black;
+}
+
+#c_footer {
+    padding:4%;
+}
+
+#c_footer > a {
+    color:orange;
+}
+
+@media (max-width: 768px) {
+    .c_mainpic {
+        width:80%;
+    }
+    #c_mobilemenu, #c_leftarrrow {
+        display:block
+    }
+    #c_menu {
+        position:fixed;
+        width:30%;
+        height:100vh;
+        font-size:0.8rem;
+        left:-1000px;
+        transition:0.5s;
+    }
+    #c_navbox {
+        grid-gap:5px;
+        margin-top:15%;
+        display:grid;
+        grid-template-columns:1fr;
+    }
+    #c_profilebox, .c_box {
+        grid-template-columns:1fr;
+    }
+    .c_right,.c_left {
+        text-align:center;
+    }
+}

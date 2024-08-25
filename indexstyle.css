@@ -159,6 +159,9 @@ body {
 #customstyle {
     animation:slideDownToUp 4.5s ease-out;
 }
+#mwjquery {
+	animation:slideDownToUp 6s ease-out;
+}
 
 @keyframes slideUpToDown {
     0% {

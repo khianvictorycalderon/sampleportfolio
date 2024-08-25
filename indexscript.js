@@ -1,5 +1,5 @@
 
-var customStyleLink = "https://docs.google.com/forms/d/e/1FAIpQLSeaauh5eZwcYJzZA3eqBTGE0GpoYpmKGge6nTeaQMdnfXrnUg/viewform?usp=sf_link";
+var customStyleLink = "https://khianvictorycalderon.github.io/";
 var toggleSpeed = 300;
 
 function disableContainer(x) {
